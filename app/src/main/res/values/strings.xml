@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Story App</string>
+    <string name="app_name">MyStory App</string>
     <string name="action_register">Register</string>
 
-    <string name="title_dialog_error">Oops something wrong</string>
+    <string name="title_dialog_error">Ooops something wrong</string>
     <string name="error_empty_name">Please insert your name</string>
     <string name="error_empty_email">Please insert your email</string>
     <string name="error_invalid_email">The email is invalid</string>
@@ -12,7 +12,7 @@
     <string name="action_login">Login</string>
     <string name="label_email">Email</string>
     <string name="label_password">Password</string>
-    <string name="label_welcome">Hello, Create Your Story</string>
+    <string name="label_welcome">Hi, There\nCreate First Your Story</string>
     <string name="label_login_welcome_desc">Please login so you can enjoy the full experience</string>
     <string name="action_to_register">Register here</string>
     <string name="label_register_welcome_desc">Register yourself to be a Story Writer</string>
@@ -48,6 +48,7 @@
     <string name="message_register_success">Register Success</string>
     <string name="message_pick_image">Pick an image</string>
     <string name="error_desc_empty">Description can\'t empty</string>
+    <string name="email_here">dummy@gmail.com</string>
     <string name="name">Name</string>
     <string name="gender">Gender</string>
     <string name="email">E-Mail</string>

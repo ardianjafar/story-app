@@ -8,9 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorDarkBlue">#BD032D</color>
-    <color name="colorLightGreen">#9ED763</color>
+    <color name="colorDarkRed">#BD032D</color>
     <color name="colorGreen">#37A479</color>
+    <color name="colorDarkBlue">#0A4573</color>
 
     <color name="colorBlackDim">#74000000</color>
     <color name="colorGrey">#CECECE</color>

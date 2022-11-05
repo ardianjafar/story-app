@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         buildConfigField("String", "BASE_URL", '"https://story-api.dicoding.dev/v1/"')
-        applicationId "com.elapp.mystoryapp"
+        applicationId "com.manyan.mystoryapp"
         minSdk 24
         targetSdk 32
         versionCode 1
@@ -37,7 +37,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    namespace 'com.elapp.mystoryapp'
+    namespace 'com.manyan.mystoryapp'
 }
 
 dependencies {

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Story App</string>
+    <string name="app_name">MyStory App</string>
     <string name="action_register">Daftar</string>
 
     <string name="title_dialog_error">Oops ada kesalahan</string>
@@ -12,7 +12,7 @@
     <string name="action_login">Masuk</string>
     <string name="label_email">Email</string>
     <string name="label_password">Password</string>
-    <string name="label_welcome">Halo, Buat Cerita kamu</string>
+    <string name="label_welcome">Hai, Buat Cerita pertama kamu</string>
     <string name="label_login_welcome_desc">Silahkan login ke akun kamu supaya dapat fitur yang lengkap</string>
     <string name="action_to_register">Daftar Disini</string>
     <string name="label_register_welcome_desc">Daftarkan dirimu untuk menjadi Story Writer</string>
@@ -50,6 +50,7 @@
     <string name="error_desc_empty">Deskripsi tidak boleh kosong</string>
     <string name="name">Nama</string>
     <string name="gender">Jenis Kelamin</string>
+    <string name="email_here">dummy@gmail.com</string>
     <string name="email">E-Main</string>
     <string name="number">No Telp</string>
     <string name="address">Alamat</string>
