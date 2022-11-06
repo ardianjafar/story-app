@@ -1,82 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.manyan.mystoryapp"
+    android:installLocation="preferExternal">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature android:name="android.hardware.camera" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
-        android:name=".baseApp.StoryApplication"
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/ic_splash"
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_splash"
         android:supportsRtl="true"
-        android:theme="@style/Theme.StoryApp">
+        android:theme="@style/Theme.StoryApplication">
         <activity
-            android:name=".presentation.profile.AboutDev"
+            android:name="com.manyan.mystoryapp.view.dashboard.profile.AboutDev"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
 
-        <receiver
-            android:name=".widget.StoryImageWidget"
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.manyan.mystoryapp.view.dashboard.newstory.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.manyan.mystoryapp.view.dashboard.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.manyan.mystoryapp.view.authentication.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.manyan.mystoryapp.view.SplashActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/story_image_widget_info" />
-        </receiver>
-
-        <service
-            android:name=".widget.StackWidgetService"
-            android:permission="android.permission.BIND_REMOTEVIEWS" />
-
-        <activity
-            android:name=".presentation.story.detail.DetailStoryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.story.add.AddStoryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.profile.ProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.register.RegisterActivity"
-            android:exported="false"
-            android:theme="@style/SplashTheme" />
-        <activity
-            android:name=".presentation.splash.SplashActivity"
-            android:exported="true"
-            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".presentation.login.LoginActivity"
-            android:exported="false"
-            android:theme="@style/SplashTheme" />
-        <activity
-            android:name=".presentation.camera.CameraActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

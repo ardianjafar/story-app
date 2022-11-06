@@ -8,6 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    //
+    <color name="pink">#F06292</color>
+    <color name="navi">#2D3D4F</color>
+
+    // New App
     <color name="colorDarkRed">#BD032D</color>
     <color name="colorGreen">#37A479</color>
     <color name="colorDarkBlue">#0A4573</color>

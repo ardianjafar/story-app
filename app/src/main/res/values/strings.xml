@@ -37,11 +37,12 @@
     <string name="action_upload_story">Upload Story</string>
     <string name="hint_description">Story Description</string>
     <string name="menu_setting">Setting</string>
+    <string name="about_developer">About Developer</string>
     <string name="about_me">Developer Profile</string>
     <string name="appwidget_text">Story Image Banner</string>
     <string name="empty_text">No Data</string>
     <string name="app_widget_description">Story App Image Banner Widget</string>
-    <string name="title_profile">Profile</string>
+    <string name="title_profile">My Profile</string>
     <string name="error_password_more_6">Password must more than 6 character</string>
     <string name="label_nama">Name</string>
     <string name="title_message">Information</string>
@@ -59,4 +60,87 @@
     <string name="email_me">ardianjafar46</string>
     <string name="number_me">085816169312</string>
     <string name="address_me">Pujon, Malang</string>
+    //
+    // Started Fragment
+    // Ini nanti di hide
+    <string name="title_menu_1">What is Dicoding StoryApp?</string>
+    <string name="title_menu_2">Exciting Interaction Design!!</string>
+    <string name="desc_menu_1">Applications About Stories about Programmers who have followed Dicoding.</string>
+    <string name="desc_menu_2">The design is a simplification that is refined to make it easier and more interesting to access Stories from Dicoding members.</string>
+    <string name="learn_now">Lets Go...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Autentication
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Check your Account or Create a new Account to be able to access the Dicoding StoryApp application Now!</string>
+    <string name="title_welcome_page">Welcome to the Dicoding StoryApp!</string>
+    <string name="title_signup_page">Complete your data below, OK?</string>
+    <!--    <string name="email">Email</string>-->
+    <string name="password">Password</string>
+    <string name="message_login_page">Enter your data first !!</string>
+    <string name="title_login_page">Are You Ready ?</string>
+    <!--    <string name="name">Name</string>-->
+    <string name="copyright">© 2021 Dicoding</string>
+    <string name="message_main_page">Happy Studying</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Logout</string>
+    <string name="splash">splash</string>
+    <string name="wrong_credential">Wrong username or password</string>
+    <string name="register_success">Register Success please Login</string>
+    <string name="register_field">Registration Failed</string>
+    <string name="swipe">Swipe >></string>
+    <!--    <string name="error_empty_email">" Invalid Email"</string>-->
+
+    //Navigation
+    <string name="title_home">Home</string>
+    <string name="title_setting">Setting</string>
+    <!--    <string name="title_profile">Profile</string>-->
+    <string name="title_maps">Maps</string>
+
+    <string name="title_notifications">Notifications</string>
+    <!--    <string name="title_new_story">New Story</string>-->
+    <string name="setting">Setting</string>
+
+    //Adapter
+    <string name="detail">Detail</string>
+    <string name="close">Close</string>
+    <string name="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="title_menu_3">Not just a story but also learning</string>
+    <string name="title_menu_4">How are you curious?</string>
+    <string name="desc_menu_3">These stories contain great experiences from the Code Experts of Dicoding.</string>
+    <string name="desc_menu_4">" Come on now...."</string>
+    <string name="length_character">Password must be more than 6 characters</string>
+    <string name="set_language">Setting Language</string>
+
+    //Camera
+    <string name="error_pick_image">Error pick image</string>
+    <string name="error_showing_camera">Error showing camera</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="cd_switch_camera">Button to switch to front or rear camera</string>
+    <string name="cd_capture">Button to capture image</string>
+    <string name="cd_preview">Preview image captured by camera or from gallery</string>
+    <string name="start">Start</string>
+
+    //New Story
+    <string name="welcome">Welcome</string>
+    <string name="title_description">Description</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="enter_description">Please enter description</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="upload_success">Upload success</string>
+    <string name="uploading">Uploading…</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="Logo" translatable="false">Logo</string>
+
+    //Maps
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="shareloc">Share your Location?</string>
+    <string name="retry">Retry</string>
+
+
 </resources>

@@ -29,7 +29,7 @@
     <string name="message_incorrect_auth">Email atau password salah</string>
     <string name="action_camera">Camera</string>
     <string name="action_gallery">Gallery</string>
-    <string name="title_new_story">Tambah Story Baru</string>
+    <string name="title_new_story">Buat Story Baru</string>
     <string name="title_detail_story">Detail Story</string>
     <string name="title_choose_a_picture">Choose a picture</string>
     <string name="message_success_upload">Upload berhasil</string>
@@ -37,11 +37,12 @@
     <string name="action_upload_story">Upload Story</string>
     <string name="hint_description">Deskripsi Story</string>
     <string name="menu_setting">Pengaturan</string>
+    <string name="about_developer">Tentang Developer</string>
     <string name="about_me">Tentang Pengembang</string>
     <string name="appwidget_text">Story Image Banner</string>
     <string name="empty_text">Tidak ada data</string>
     <string name="app_widget_description">Story App Image Banner Widget</string>
-    <string name="title_profile">Profil</string>
+    <string name="title_profile">My Profil</string>
     <string name="error_password_more_6">Password harus lebih dari 6 karakter</string>
     <string name="label_nama">Nama</string>
     <string name="title_message">Informasi</string>
@@ -59,4 +60,85 @@
     <string name="email_me">ardianjafar46</string>
     <string name="number_me">085816169312</string>
     <string name="address_me">Pujon, Malang</string>
+
+    //
+    //Started Fragment
+    <string name="title_menu_1">Apa itu Dicoding StoryApp ?</string>
+    <string name="title_menu_2">Desain Interaksi yang Seru !!</string>
+    <string name="title_menu_3">Bukan hanya sekedar Cerita tapi juga Belajar</string>
+    <string name="title_menu_4">Gimana Penasaran?</string>
+    <string name="desc_menu_1">Aplikasi Seputar Cerita tentang Programer yang telah mengikuti Dicoding.</string>
+    <string name="desc_menu_2">Desain yang merupakan penyederhanaan yang di sempurnakan agar lebih mudah dan menarik untuk mengakses Cerita-Cerita dari anggota Dicoding.</string>
+    <string name="desc_menu_3">Cerita-cerita ini terdapat pengalaman-pengalaman hebat dari para Ahli Code dari Dicoding.</string>
+    <string name="desc_menu_4">Langsung aja Yuk ....</string>
+    <string name="learn_now">Ayo....</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Autentication
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Chek Akun kamu atau Buat Akun baru untuk bisa mengakses aplikasi Dicoding StoryApp Sekarang!</string>
+    <string name="title_welcome_page">Selamat datang di Dicoding StoryApp!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+<!--    <string name="email">Email</string>-->
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya!!</string>
+    <string name="title_login_page">Sudah siap ?</string>
+<!--    <string name="name">Nama</string>-->
+    <string name="copyright">© 2021 Dicoding</string>
+    <string name="message_main_page">Selamat Berselancar.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="splash">splash</string>
+    <string name="wrong_credential">Username dan Password Kamu Salah</string>
+    <string name="register_success">Register Sukses silahkan Masuk</string>
+    <string name="register_field">Register Gagal</string>
+    <string name="length_character">password harus lebih dari 6 karakter </string>
+    <string name="swipe">Geser >></string>
+<!--    <string name="error_empty_email">Email tidak Sesuai</string>-->
+
+    //Navigation
+    <string name="title_home">Beranda</string>
+    <string name="title_setting">Setting</string>
+<!--    <string name="title_profile">Profil</string>-->
+    <string name="title_maps">Peta</string>
+
+    <string name="title_notifications">Notifikasi</string>
+<!--    <string name="title_new_story">Cerita Baru</string>-->
+    <string name="setting">Pengaturan</string>
+
+    //Adapter
+    <string name="detail">Detail</string>
+    <string name="close">Tutup</string>
+    <string name="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="set_language">Pengaturan Bahasa</string>
+
+    //Camera
+    <string name="error_pick_image">Error Ambil Gambar</string>
+    <string name="error_showing_camera">Error Menampilkan Camera</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="cd_switch_camera">Button to switch to front or rear camera</string>
+    <string name="cd_capture">Button to capture image</string>
+    <string name="cd_preview">Preview image captured by camera or from gallery</string>
+    <string name="start">Start</string>
+
+    //New Story
+    <string name="welcome">Welcome</string>
+    <string name="title_description">Description</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="enter_description">Please enter description</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="upload_success">Upload success</string>
+    <string name="uploading">Uploading…</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    //Maps
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="shareloc">Bagikan Lokasi? </string>
+    <string name="retry">Retry</string>
+
 </resources>

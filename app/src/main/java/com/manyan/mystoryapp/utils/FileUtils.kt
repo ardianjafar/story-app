@@ -8,8 +8,8 @@ import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import android.net.Uri
 import android.os.Environment
-import com.manyan.mystoryapp.R
-import timber.log.Timber
+//import com.manyan.mystoryapp.R
+//import timber.log.Timber
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.FileOutputStream
@@ -40,22 +40,22 @@ fun urlToBitmap(src: String): Bitmap? {
         val input = connection.getInputStream()
         BitmapFactory.decodeStream(input)
     } catch (ex: Exception) {
-        Timber.e(ex.message.toString())
+//        Timber.e(ex.message.toString())
         null
     }
 }
 
-fun createFile(application: Application): File {
-    val mediaDir = application.externalMediaDirs.firstOrNull()?.let {
-        File(it, application.resources.getString(R.string.app_name)).apply { mkdirs() }
-    }
-
-    val outputDirectory = if (
-        mediaDir != null && mediaDir.exists()
-    ) mediaDir else application.filesDir
-
-    return File(outputDirectory, "$timeStamp.jpg")
-}
+//fun createFile(application: Application): File {
+//    val mediaDir = application.externalMediaDirs.firstOrNull()?.let {
+//        File(it, application.resources.getString(R.string.app_name)).apply { mkdirs() }
+//    }
+//
+//    val outputDirectory = if (
+//        mediaDir != null && mediaDir.exists()
+//    ) mediaDir else application.filesDir
+//
+//    return File(outputDirectory, "$timeStamp.jpg")
+//}
 
 fun rotateBitmap(bitmap: Bitmap, isBackCamera: Boolean = false): Bitmap {
     val matrix = Matrix()
