@@ -1,54 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyStory App</string>
-    <string name="action_register">Daftar</string>
-
-    <string name="title_dialog_error">Oops ada kesalahan</string>
-    <string name="error_empty_name">Nama Tidak Boleh Kosong</string>
-    <string name="error_empty_email">Email tidak boleh kosong!</string>
-    <string name="error_invalid_email">Email tidak valid!</string>
-    <string name="error_empty_password">Password tidak boleh kosong!</string>
-    <string name="label_is_havent_account">Belum punya akun ?</string>
-    <string name="label_is_have_account">Sudah punya akun ?</string>
-    <string name="action_login">Masuk</string>
-    <string name="label_email">Email</string>
-    <string name="label_password">Password</string>
-    <string name="label_welcome">Hai, Buat Cerita pertama kamu</string>
-    <string name="label_login_welcome_desc">Silahkan login ke akun kamu supaya dapat fitur yang lengkap</string>
-    <string name="action_to_register">Daftar Disini</string>
-    <string name="label_register_welcome_desc">Daftarkan dirimu untuk menjadi Story Writer</string>
-    <string name="action_to_login">Masuk disini</string>
-    <string name="label_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis nunc nec sodales consectetur. Sed eget auctor quam. Nulla facilisi. Etiam vitae nulla sed arcu varius tempus. Nullam ac diam ante. Donec condimentum cursus accumsan. Ut sit amet felis rutrum, posuere lorem sed</string>
-    <string name="label_greeting_user">Halo, %1$s!</string>
-    <string name="message_failed_take_picture">Gagal mengambil gambar</string>
-    <string name="message_unknown_state">Unknown State</string>
-    <string name="message_not_permitted">Tidak mendapatkan permission</string>
-    <string name="action_logout">Logout</string>
-    <string name="message_logout_confirm">Anda yakin ingin keluar ?</string>
-    <string name="action_yes">Logout</string>
-    <string name="action_cancel">Cancel</string>
-    <string name="message_incorrect_auth">Email atau password salah</string>
-    <string name="action_camera">Camera</string>
-    <string name="action_gallery">Gallery</string>
-    <string name="title_new_story">Buat Story Baru</string>
-    <string name="title_detail_story">Detail Story</string>
-    <string name="title_choose_a_picture">Choose a picture</string>
-    <string name="message_success_upload">Upload berhasil</string>
-    <string name="title_upload_info">Upload Info</string>
-    <string name="action_upload_story">Upload Story</string>
-    <string name="hint_description">Deskripsi Story</string>
-    <string name="menu_setting">Pengaturan</string>
-    <string name="about_developer">Tentang Developer</string>
-    <string name="about_me">Tentang Pengembang</string>
-    <string name="appwidget_text">Story Image Banner</string>
-    <string name="empty_text">Tidak ada data</string>
-    <string name="app_widget_description">Story App Image Banner Widget</string>
+    <string name="hint_username">Masukkan nama anda</string>
+    <string name="hint_password">Masukkan password anda</string>
+    <string name="error_username">Nama tidak boleh kurang dari 2 karakter</string>
+    <string name="error_email">Masukkan email dengan benar</string>
+    <string name="error_password">Kata sandi harus 6 karakter</string>
+    <string name="error_register">Gagal mendaftar akun</string>
+    <string name="check">Periksa email dan kata sandi anda</string>
+    <string name="we_all_have_a_story">Buat cerita pertama anda disini</string>
+    <string name="sign_in">Masuk</string>
+    <string name="dont_have_account">Belum memiliki akun ?</string>
+    <string name="register">Daftar</string>
+    <string name="register_your_account">Daftarkan akun anda</string>
+    <string name="photo">Foto</string>
+    <string name="image_add_photo">Gambar menambahkan foto</string>
+    <string name="camera">Kamera</string>
+    <string name="hint_description">Apa yang ingin anda ceritakan…</string>
+    <string name="upload">Unggah</string>
+    <string name="gallery">Galeri</string>
+    <string name="already_account">Sudah memiliki akun ?</string>
+    <string name="data_not_found">Oops, tidak ada data....</string>
+    <string name="check_connection">Oops, periksa koneksi anda…</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="log_out">Keluar</string>
     <string name="title_profile">My Profil</string>
-    <string name="error_password_more_6">Password harus lebih dari 6 karakter</string>
-    <string name="label_nama">Nama</string>
-    <string name="title_message">Informasi</string>
-    <string name="message_register_success">Register Berhasil</string>
-    <string name="message_pick_image">Pilih gambar</string>
-    <string name="error_desc_empty">Deskripsi tidak boleh kosong</string>
+    <string name="are_you_sure">Apakah anda yakin ?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="not_out">Batal keluar</string>
+    <string name="log_out_warning">Kamu keluar dari aplikasi</string>
+    <string name="upload_story">Unggah Cerita</string>
+    <string name="add_story">Tambah Cerita</string>
+    <string name="warning_upload">Silahkan lengkapi file dan deskripsi</string>
+    <string name="success_add_story">Berhasil menambahkan cerita</string>
+    <string name="error_add_story">Gagal menambahkan cerita, silahkan coba lagi</string>
+    <string name="success_register">Berhasil mendaftarkan akun</string>
+    <string name="warning_input">Data belum lengkap</string>
+    <string name="settings">Pengaturan</string>
+    <string name="details">Detail</string>
+    <string name="image_login">Gambar masuk</string>
+    <string name="image_register">Gambar Daftar</string>
+    <string name="start_now">Mulai Sekarang</string>
+    <string name="description_menu2">Saat harimu berat maka aplikasi ini solusinya</string>
+    <string name="let_start">Mari Mulai</string>
+    <string name="description_menu3">Mari kita mulai dengan aplikasi cerita saya, semoga harimu menyenangkan</string>
+    <string name="title_menu2">Ringan dan Mudah</string>
+    <string name="image_welcome">Gambar selamat datang</string>
+    <string name="description_menu1">Mau cerita sesuatu yang berat, tenang aja aplikasi ini solusinya hehe</string>
+    <string name="title_menu1">Aplikasi yang mudah dan rumit</string>
+    <string name="share_location">Bagikan Lokasi</string>
+    <string name="location_message">Silahkan aktifkan Lokasi anda</string>
+    <string name="permission_location_warning">Lokasi Tidak Di izinkan</string>
+    <string name="maps">Peta</string>
+    <string name="warning_active_location">Silahkan aktifkan lokasi anda</string>
+    <string name="story_location">Lokasi Cerita</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Beranda</string>
+    <string name="language_settings">Pengaturan Bahasa</string>
+    <string name="description_splash">Jangan ragu menceritakan diri anda</string>
+
+    <!--    -->
+    <string name="message_login_page">Masukkan dulu datamu ya!!</string>
+    <string name="error_empty_email">Email tidak Sesuai</string>
+
+<!--    about dev-->
+    <string name="about_dev">About Dev</string>
     <string name="name">Nama</string>
     <string name="gender">Jenis Kelamin</string>
     <string name="email_here">dummy@gmail.com</string>
@@ -60,85 +76,6 @@
     <string name="email_me">ardianjafar46</string>
     <string name="number_me">085816169312</string>
     <string name="address_me">Pujon, Malang</string>
-
-    //
-    //Started Fragment
-    <string name="title_menu_1">Apa itu Dicoding StoryApp ?</string>
-    <string name="title_menu_2">Desain Interaksi yang Seru !!</string>
-    <string name="title_menu_3">Bukan hanya sekedar Cerita tapi juga Belajar</string>
-    <string name="title_menu_4">Gimana Penasaran?</string>
-    <string name="desc_menu_1">Aplikasi Seputar Cerita tentang Programer yang telah mengikuti Dicoding.</string>
-    <string name="desc_menu_2">Desain yang merupakan penyederhanaan yang di sempurnakan agar lebih mudah dan menarik untuk mengakses Cerita-Cerita dari anggota Dicoding.</string>
-    <string name="desc_menu_3">Cerita-cerita ini terdapat pengalaman-pengalaman hebat dari para Ahli Code dari Dicoding.</string>
-    <string name="desc_menu_4">Langsung aja Yuk ....</string>
-    <string name="learn_now">Ayo....</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    //Autentication
-    <string name="signup">Daftar</string>
-    <string name="login">Masuk</string>
-    <string name="message_welcome_page">Chek Akun kamu atau Buat Akun baru untuk bisa mengakses aplikasi Dicoding StoryApp Sekarang!</string>
-    <string name="title_welcome_page">Selamat datang di Dicoding StoryApp!</string>
-    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
-<!--    <string name="email">Email</string>-->
-    <string name="password">Password</string>
-    <string name="message_login_page">Masukkan dulu datamu ya!!</string>
-    <string name="title_login_page">Sudah siap ?</string>
-<!--    <string name="name">Nama</string>-->
-    <string name="copyright">© 2021 Dicoding</string>
-    <string name="message_main_page">Selamat Berselancar.</string>
-    <string name="greeting">Halo %1$s,</string>
     <string name="logout">Keluar</string>
-    <string name="splash">splash</string>
-    <string name="wrong_credential">Username dan Password Kamu Salah</string>
-    <string name="register_success">Register Sukses silahkan Masuk</string>
-    <string name="register_field">Register Gagal</string>
-    <string name="length_character">password harus lebih dari 6 karakter </string>
-    <string name="swipe">Geser >></string>
-<!--    <string name="error_empty_email">Email tidak Sesuai</string>-->
-
-    //Navigation
-    <string name="title_home">Beranda</string>
-    <string name="title_setting">Setting</string>
-<!--    <string name="title_profile">Profil</string>-->
-    <string name="title_maps">Peta</string>
-
-    <string name="title_notifications">Notifikasi</string>
-<!--    <string name="title_new_story">Cerita Baru</string>-->
-    <string name="setting">Pengaturan</string>
-
-    //Adapter
-    <string name="detail">Detail</string>
-    <string name="close">Tutup</string>
-    <string name="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
-    <string name="set_language">Pengaturan Bahasa</string>
-
-    //Camera
-    <string name="error_pick_image">Error Ambil Gambar</string>
-    <string name="error_showing_camera">Error Menampilkan Camera</string>
-    <string name="permission_not_granted">Permission not granted</string>
-    <string name="cd_switch_camera">Button to switch to front or rear camera</string>
-    <string name="cd_capture">Button to capture image</string>
-    <string name="cd_preview">Preview image captured by camera or from gallery</string>
-    <string name="start">Start</string>
-
-    //New Story
-    <string name="welcome">Welcome</string>
-    <string name="title_description">Description</string>
-    <string name="upload_story">Upload Story</string>
-    <string name="enter_description">Please enter description</string>
-    <string name="upload_failed">Upload failed</string>
-    <string name="upload_success">Upload success</string>
-    <string name="uploading">Uploading…</string>
-    <string name="camera">Camera</string>
-    <string name="gallery">Gallery</string>
-
-    //Maps
-    <string name="normal_type">Normal</string>
-    <string name="satellite_type">Satellite</string>
-    <string name="terrain_type">Terrain</string>
-    <string name="hybrid_type">Hybrid</string>
-    <string name="shareloc">Bagikan Lokasi? </string>
-    <string name="retry">Retry</string>
-
+    <string name="disclaimer">Aplikasi ini akan di kembangkan sebagai portofolio setelah menyelesaikan tahap submission</string>
 </resources>

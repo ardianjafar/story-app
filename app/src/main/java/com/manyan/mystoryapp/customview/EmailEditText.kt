@@ -1,15 +1,21 @@
 package com.manyan.mystoryapp.customview
 
 import android.content.Context
-import android.graphics.Canvas
+import android.graphics.drawable.Drawable
+import android.os.Build
 import android.text.Editable
-import android.text.TextUtils
+import android.text.InputType
 import android.text.TextWatcher
 import android.util.AttributeSet
+import android.util.Patterns
 import androidx.appcompat.widget.AppCompatEditText
+import androidx.core.content.ContextCompat
 import com.manyan.mystoryapp.R
 
 class EmailEditText : AppCompatEditText {
+
+    private lateinit var emailIconDrawable: Drawable
+
     constructor(context: Context) : super(context) {
         init()
     }
@@ -18,35 +24,43 @@ class EmailEditText : AppCompatEditText {
         init()
     }
 
-    constructor(context: Context, attrs: AttributeSet, defStyleAttr: Int) : super(context, attrs, defStyleAttr) {
+    constructor(context: Context, attrs: AttributeSet, defStyleAttr: Int) : super(
+        context,
+        attrs,
+        defStyleAttr
+    ) {
         init()
     }
 
     private fun init() {
+        emailIconDrawable = ContextCompat.getDrawable(context, R.drawable.ic_baseline_email_24) as Drawable
+        inputType = InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS
+        compoundDrawablePadding = 16
+
+        setHint(R.string.hint_email)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            setAutofillHints(AUTOFILL_HINT_EMAIL_ADDRESS)
+        }
+        setDrawable(emailIconDrawable)
+
         addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                // do nothing
-            }
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+            override fun afterTextChanged(p0: Editable?) {}
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                val email = s.toString()
-                when {
-                    email.isBlank() -> error = context.getString(R.string.message_login_page)
-                    !email.isEmailValid() -> error = context.getString(R.string.error_empty_email)
-                }
-            }
-
-            override fun afterTextChanged(p0: Editable?) {
-                // do nothing
+                // Email validation
+                if (!s.isNullOrEmpty() && !Patterns.EMAIL_ADDRESS.matcher(s).matches())
+                    error = context.getString(R.string.error_email)
             }
         })
     }
-    fun String.isEmailValid(): Boolean {
-        return !TextUtils.isEmpty(this) && android.util.Patterns.EMAIL_ADDRESS.matcher(this)
-            .matches()
-    }
 
-    override fun onDraw(canvas: Canvas?) {
-        super.onDraw(canvas)
+    private fun setDrawable(
+        start: Drawable? = null,
+        top: Drawable? = null,
+        end: Drawable? = null,
+        bottom: Drawable? = null
+    ) {
+        setCompoundDrawablesWithIntrinsicBounds(start, top, end, bottom)
     }
 }
